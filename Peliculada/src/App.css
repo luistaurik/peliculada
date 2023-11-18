@@ -27,3 +27,11 @@
   font-size: 12px;
   border-bottom: #368f49 solid 4px;
 }
+
+
+.footer {
+  background-color: #212529;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}

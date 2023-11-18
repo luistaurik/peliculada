@@ -20,7 +20,7 @@ function Header({ setSearchM, validateMovies }) {
               <img src={logo} className="header-logo" alt="Logo" />
             </a>
             <ul className="nav col-8 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" className="nav-link px-2 text-secondary">About</a></li>
+              <li><a href="#footer" className="nav-link px-2 text-secondary">About</a></li>
             </ul>
             <form className="d-flex col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search" onSubmit={searchMovies}>
               <input type="search" className="form-control input-search form-control-dark text-bg-light" placeholder="Search..." aria-label="Search" onChange={(e) => setInputValue(e.target.value)}

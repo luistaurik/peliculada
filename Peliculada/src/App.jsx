@@ -21,7 +21,7 @@ function App() {
       const data = await res.json();
       setMovies(data.results);
     } catch (error) {
-      console.error('Error fetching data from API:', error);
+      console.error('I have an error :(', error);
     }
   };
 
@@ -116,7 +116,11 @@ function App() {
           </div>
         </div>
         </div>
-      </div>      
+      </div>
+      <div className='footer' id='footer'>
+                <h5>About</h5>
+                <p>Luis Acosta Fuenmayor | All rights reserved.</p>
+      </div>    
     </>
   ) 
 }
