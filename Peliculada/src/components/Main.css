@@ -1,0 +1,14 @@
+.main {
+    background-color: #46c160;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    margin: auto 1rem;
+}
+
+.btn-movies {
+    font-weight: 500;
+}

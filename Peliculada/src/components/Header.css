@@ -1,0 +1,17 @@
+.header {
+    width: auto;
+    margin: 0;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.input-search {
+    width: 320px;
+}
+
+.btn-search {
+    background-color: #46c160;
+    margin-left: 4%;
+}
